@@ -5,6 +5,14 @@ This is a web-based translator application built using Flask. It allows users to
 
 ---
 
+## 🌐 Live Demo
+
+🚀 Try the application here:
+
+[https://codealpha-translationtool-j715.onrender.com]
+
+---
+
 ## 🚀 Features
 - 🌍 Multi-language support (20+ languages)
 - ⚡ Real-time translation
@@ -33,9 +41,13 @@ This is a web-based translator application built using Flask. It allows users to
 ---
 
 ## 📂 Project Structure
+
+```text
 Translation-Tool/
 │
 ├── app.py
+├── requirements.txt
+│
 ├── templates/
 │   └── index.html
 │
@@ -44,11 +56,3 @@ Translation-Tool/
 │   │   └── style.css
 │   └── js/
 │       └── script.js
-
----
-
-## 📂 Setup Instructions
-```bash
-pip install flask
-pip install deep-translator
-python app.py
